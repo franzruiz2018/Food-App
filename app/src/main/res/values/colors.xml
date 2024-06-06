@@ -8,9 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">#4CAF50</color>
-    <color name="colorPrimaryDark">#388E3C</color>
-    <color name="colorAccent">#4CAF50</color>
+
+
+    <color name="colorPrimary">#F2B28D</color>
+    <color name="colorPrimaryDark">#F29D52</color>
+    <color name="colorAccent">#F27B35</color>
     <color name="primary">#C8E6C9</color>
     <color name="colorPrimaryLight">#C8E6C9</color>
     <color name="colorPrimaryText">#212121</color>
@@ -23,4 +25,8 @@
     <color name="colorTextWhite">#FFFFFF</color>
     <color name="colorPrimaryLight2">#DEFCDE</color>
     <color name="colorRojo">#F00</color>>
+    <color name="colorTodos">#F44336</color>
+    <color name="colorFondo">#FE7164</color>
+    <color name="colorDesayuno">#FE7164</color>
+    <color name="colorSopa">#FE7164</color>
 </resources>

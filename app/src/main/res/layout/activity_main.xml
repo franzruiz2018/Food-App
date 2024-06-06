@@ -14,18 +14,77 @@
         android:layout_marginLeft="20dp"
         android:orientation="vertical"        >
 
-    <TextView
-        android:id="@+id/txtData"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20dp"
-        android:text="Lista de Platos"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="5dp"
 
-        android:textColor="@color/colorPrimaryText"
-        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+
+        android:orientation="horizontal"        >
+
+
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="MENÚ"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
+            android:backgroundTint="@color/colorTodos"
+            tools:ignore="MissingConstraints"
+           />
+        <Button
+            android:id="@+id/btnDesayuno"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DES"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
+
+            android:backgroundTint="@color/colorDesayuno"
+            tools:ignore="MissingConstraints"
+            />
+        <Button
+            android:id="@+id/btnFondo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Fon"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/colorFondo"
+            tools:ignore="MissingConstraints"
+           />
+        <Button
+            android:id="@+id/btnSopa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Sop"
+            android:backgroundTint="@color/colorSopa"
+            tools:ignore="MissingConstraints"
+            />
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="Lista de Platos"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/colorPrimaryText"
+            />
 
     <ListView
         android:layout_width="match_parent"
@@ -33,6 +92,10 @@
         android:choiceMode="multipleChoice"
         android:id="@+id/lvPlatos"/>
     </LinearLayout>
+
+
+
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -49,6 +112,8 @@
             android:layout_marginTop="20dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
+            android:backgroundTint="@color/colorTodos"
+
             android:textSize="15dp"
             android:text="Listar Ingredientes">
 

@@ -14,6 +14,7 @@ import com.example.appfood.Model.FoodModel;
 import com.example.appfood.R;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class adapter_lvPlatos extends BaseAdapter {
 
@@ -38,10 +39,12 @@ public class adapter_lvPlatos extends BaseAdapter {
         return id;
     }
 
+
     public View getView(int position, View view, ViewGroup viewGroup) {
         View v =view;
         LayoutInflater layoutInflater=LayoutInflater.from(this.context);
         v= layoutInflater.inflate(R.layout.item_listview_platos,null);
+
 
         final FoodModel Item = (FoodModel) getItem(position);
         TextView _txtNombrePlato =(TextView) v.findViewById(R.id.txtPlato);
